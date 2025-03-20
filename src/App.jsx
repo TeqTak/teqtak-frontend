@@ -78,7 +78,7 @@ const App = () => {
       <Routes>
         {/* Landing Page */}
         <Route path='/' element={<LandingPage />} />
-
+{/* Teqtak.com */}
         {/* Login and Signup Routes  public routes*/}
 
         <Route path='/signup' element={<Signup />} />
