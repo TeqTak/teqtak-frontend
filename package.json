@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node init && vite",
+    "build": "node init && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -21,7 +21,6 @@
     "@testing-library/user-event": "^13.5.0",
     "antd": "^5.20.0",
     "axios": "^1.7.3",
-    
     "country-state-city": "^3.2.1",
     "date-fns": "^3.6.0",
     "geolib": "^3.3.4",
